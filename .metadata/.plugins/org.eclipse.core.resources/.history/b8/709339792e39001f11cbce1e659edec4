@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+		<center>
+			<form>
+				<div class="wrapper">
+			<h4>Calculator</h4>
+			<div class="container">
+					<table>
+						<tr>
+					<td>1st Number</td>&nbsp;
+						<td><input type="number" name="First" value="" placeholder="First Input"</td>
+					</tr>
+					</table>
+					<br><br>
+					<table>
+						<tr>
+						<td>2nd Number</td>&nbsp;
+						<td><input type="number" name="Second" value="" placeholder="Second Input"</td>
+					</tr>
+					</table>
+					<div class="Result">
+					<input type="submit" name="a" value="Add" autocomplete="off">&nbsp;&nbsp;
+					<input type="submit" name="b" value="Subtract" autocomplete="off">&nbsp;&nbsp;
+					<input type="submit" name="c" value="Multiply" autocomplete="off">&nbsp;&nbsp;
+					<input type="submit" name="d" value="Divide" autocomplete="off">&nbsp;&nbsp;
+					</div>
+			</div>
+		</div>
+			</form>
+		</center>
+</body>
+</html>

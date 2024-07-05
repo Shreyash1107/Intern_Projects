@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+		<center>
+			<form>
+				<div class="wrapper">
+			<h4>Calculator</h4>
+			<div class="container">
+					<tr>
+					<td>Enter the First Number</td>&nbsp;
+						<td><input type="number" name="First" value="" placeholder="First Input"</td>
+					</tr>
+					<br><br>
+					<tr>
+						<td>Enter the Second Number</td>&nbsp;
+						<td><input type="number" name="Second" value="" placeholder="Second Input"</td>
+					</tr>
+					<div class="Result">
+					<input type="submit" name="a" value="Add" autocomplete="off">&nbsp;&nbsp;
+					<input type="submit" name="b" value="Subtract" autocomplete="off">&nbsp;&nbsp;
+					<input type="submit" name="c" value="Multiply">&nbsp;&nbsp;
+					<input type="submit" name="d" value="Divide">&nbsp;&nbsp;
+					</div>
+			</div>
+		</div>
+			</form>
+		</center>
+</body>
+</html>
