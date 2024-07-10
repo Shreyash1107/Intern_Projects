@@ -8,7 +8,7 @@ public class PasswordgeneratorApp
 		final String lowercase =  "abcdefghijklmnopqrstuvwxyz";
 		final String specialchar = "!@#$%^&*()-_+=<>?";
 		final String dig = "0123456789";
-		final String allchar = uppercase + lowercase + specialchar + dig;
+		final String allchar = uppercase + lowercase + specialchar + dig;  //$%&jko9_W
 		
 		SecureRandom Rand = new SecureRandom();   //For Random Password Generation
 		
@@ -16,10 +16,10 @@ public class PasswordgeneratorApp
 		{
 			if(len<1)
 			{
-				out.println("Passsword length must of more than 0");
+				out.println("Passsword length must of more than 0");  //8
 			}
 			StringBuilder pass = new StringBuilder(len);
-			pass.append(uppercase.charAt(Rand.nextInt(uppercase.length())));
+			pass.append(uppercase.charAt(Rand.nextInt(uppercase.length())));  //26
 			pass.append(lowercase.charAt(Rand.nextInt(lowercase.length())));
 			pass.append(specialchar.charAt(Rand.nextInt(specialchar.length())));
 			pass.append(dig.charAt(Rand.nextInt(dig.length())));
