@@ -7,8 +7,8 @@ public class RockPaperScissorGameApplication
 	{
 		Scanner abc = new Scanner(System.in);
 		Random rand = new Random();
-		String str[] = {"Rock","Paper","Scissor"};
-		String usermove,computermove;
+		String str[] = {"Rock","Paper","Scissor"};  //0  1   2
+		String usermove,computermove; 
 		boolean result = true;
 		System.out.println("*******************Welcome to the Rock,Paper,Scissor Game*******************");
 		while(result)
@@ -27,13 +27,13 @@ public class RockPaperScissorGameApplication
 				continue;
 			}
 			System.out.println("Compuetr's Move: " + computermove);
-			if(usermove.equalsIgnoreCase(computermove))
+			if(usermove.equalsIgnoreCase(computermove)) //
 			{
 				System.out.println("It's a Tie");
 			}
-			else if(usermove.equalsIgnoreCase("Rock") && usermove.equalsIgnoreCase("Scissor") 
-					|| usermove.equalsIgnoreCase("Paper") && usermove.equalsIgnoreCase("Rock")
-					|| usermove.equalsIgnoreCase("Scissor") && usermove.equalsIgnoreCase("Paper"))
+			else if(usermove.equalsIgnoreCase("Rock") && computermove.equalsIgnoreCase("Scissor") 
+					|| usermove.equalsIgnoreCase("Paper") && computermove.equalsIgnoreCase("Rock")
+					|| usermove.equalsIgnoreCase("Scissor") && computermove.equalsIgnoreCase("Paper"))
 			{
 				System.out.println("Congratulations! You have won tha game");
 			}
